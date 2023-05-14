@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  border: 2px dashed black;
 }
 
 h1, h2 {
