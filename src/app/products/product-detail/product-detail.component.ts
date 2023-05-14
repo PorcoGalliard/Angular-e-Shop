@@ -13,4 +13,10 @@ export class ProductDetailComponent {
   buy() {
     this.bought.emit(this.name);
   }
+
+  get productName() : string {
+    console.log(`Get ${this.name}`);
+    return this.name;
+  }
+
 }
